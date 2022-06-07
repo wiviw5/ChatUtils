@@ -1,0 +1,16 @@
+[
+{
+  "modid": "chatutils",
+  "name": "ChatUtils",
+  "description": "Small modifications for Hypixel mostly relating to chat.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/wiviw5/ChatUtils",
+  "updateUrl": "",
+  "authorList": ["WiViW"],
+  "credits": "My primal urge to /boop friends when they join.",
+  "logoFile": "icon.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
