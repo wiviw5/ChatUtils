@@ -9,7 +9,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 @Mod(modid = ChatUtils.MODID, version = ChatUtils.VERSION)
 public class ChatUtils {
     public static final String MODID = "chatutils";
-    public static final String VERSION = "0.1.0";
+    public static final String VERSION = "0.1.1";
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
