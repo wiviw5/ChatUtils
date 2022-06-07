@@ -21,7 +21,7 @@ public class onChatEvent {
             Matcher friendMatcher = messageStartFriend.matcher(message);
             Pattern messageStart = Pattern.compile((char) 167 + "2Guild > ", Pattern.LITERAL);
             Matcher guildMatcher = messageStart.matcher(message);
-            Pattern joinPattern = Pattern.compile("joined", Pattern.LITERAL);
+            Pattern joinPattern = Pattern.compile((char) 167 + "r" + (char) 167 + "ejoined", Pattern.LITERAL);
             Matcher joinedMatcher = joinPattern.matcher(message);
             boolean friendMatcherBool = friendMatcher.find();
             boolean guildMatcherBool = guildMatcher.find();
